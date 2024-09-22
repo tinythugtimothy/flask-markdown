@@ -29,8 +29,8 @@ decorating the extension class with :func:`extend`
 :license: BSD, MIT see LICENSE for more details.
 """
 from __future__ import absolute_import
-from markupsafe import Markup
-from jinja2 import pass_eval_context, escape
+from markupsafe import Markup, escape
+from jinja2 import pass_eval_context
 import markdown as md
 from markdown import (
     blockprocessors,
